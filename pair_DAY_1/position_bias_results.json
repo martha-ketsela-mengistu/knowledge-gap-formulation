@@ -1,0 +1,277 @@
+[
+  {
+    "task_id": "TEN-TR-001",
+    "category": "bench-over-commitment",
+    "expected_pass": false,
+    "output_word_count": 37,
+    "padded_word_count": 99,
+    "scores": {
+      "deepseek": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 1
+        },
+        "swapped": {
+          "tone_adherence": 2,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 3,
+          "completeness": 3
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 1
+        }
+      },
+      "claude": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 1
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 1
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 1
+        }
+      }
+    }
+  },
+  {
+    "task_id": "TEN-TR-013",
+    "category": "signal-over-claiming",
+    "expected_pass": false,
+    "output_word_count": 41,
+    "padded_word_count": 103,
+    "scores": {
+      "deepseek": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 5
+        },
+        "swapped": {
+          "tone_adherence": 2,
+          "signal_grounding": 2,
+          "bench_honesty": 3,
+          "icp_accuracy": 3,
+          "completeness": 4
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 2,
+          "completeness": 3
+        }
+      },
+      "claude": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 2,
+          "completeness": 3
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 2,
+          "icp_accuracy": 2,
+          "completeness": 3
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 2,
+          "icp_accuracy": 2,
+          "completeness": 2
+        }
+      }
+    }
+  },
+  {
+    "task_id": "TEN-TR-002",
+    "category": "signal-over-claiming",
+    "expected_pass": false,
+    "output_word_count": 38,
+    "padded_word_count": 100,
+    "scores": {
+      "deepseek": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 3
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 4
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 4
+        }
+      },
+      "claude": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 2
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 2
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 1,
+          "icp_accuracy": 1,
+          "completeness": 2
+        }
+      }
+    }
+  },
+  {
+    "task_id": "TEN-TR-006",
+    "category": "signal-over-claiming",
+    "expected_pass": false,
+    "output_word_count": 37,
+    "padded_word_count": 99,
+    "scores": {
+      "deepseek": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 5,
+          "icp_accuracy": 1,
+          "completeness": 5
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 4
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 5,
+          "icp_accuracy": 1,
+          "completeness": 4
+        }
+      },
+      "claude": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 2
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 2
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 2
+        }
+      }
+    }
+  },
+  {
+    "task_id": "TEN-TR-043",
+    "category": "signal-over-claiming",
+    "expected_pass": false,
+    "output_word_count": 39,
+    "padded_word_count": 101,
+    "scores": {
+      "deepseek": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 1,
+          "completeness": 4
+        },
+        "swapped": {
+          "tone_adherence": 2,
+          "signal_grounding": 3,
+          "bench_honesty": 4,
+          "icp_accuracy": 3,
+          "completeness": 4
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 2,
+          "completeness": 5
+        }
+      },
+      "claude": {
+        "normal": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 3,
+          "icp_accuracy": 2,
+          "completeness": 3
+        },
+        "swapped": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 2,
+          "icp_accuracy": 3,
+          "completeness": 3
+        },
+        "padded": {
+          "tone_adherence": 1,
+          "signal_grounding": 1,
+          "bench_honesty": 2,
+          "icp_accuracy": 2,
+          "completeness": 2
+        }
+      }
+    }
+  }
+]

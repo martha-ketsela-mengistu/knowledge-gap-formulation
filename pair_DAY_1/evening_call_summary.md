@@ -1,0 +1,7 @@
+# Evening Call Summary — Day 1
+
+Rafia's primary feedback was that the first draft of the explainer described position bias and length bias correctly at the surface level but did not deliver what her question asked for: an actual trace of the log-probabilities at the judgment token position. The explainer explained the attention formula but never showed what the score-token probability distribution looks like before and after a context swap, so she could follow the narrative but could not verify the mechanism. I added the token-probability formula, two concrete worked-example tables showing the argmax flip from "1" to "5", and a note on how to retrieve the values via the logprobs API.
+
+Rafia also flagged a factual inconsistency: the draft claimed position bias causes scores to move "consistently upward," but the raw results for TEN-TR-006 showed DeepSeek's bench_honesty score decreasing on swap (5→3), not increasing. I revised the framing to acknowledge that the bias is bidirectional — the problem is score instability regardless of direction, not systematic leniency — and corrected the Claude position-swap rate from 20% to the verified 16% (4/25).
+
+The LoRA section was flagged as vague: "re-wires the attention weights" did not explain the mechanism. I replaced it with the accurate low-rank decomposition description (ΔW = BA) and named ORPO specifically, including that it operates without a reference model KL term. Rafia confirmed the revised explainer closed the gap and was technically correct.
