@@ -1,7 +1,6 @@
 # Week 12 — Knowledge Gap Formulation for Compounding
 
-**Program:** TRP1 Challenge, 10 Academy  
-**Trainee:** Martha Ketsela Mengistu (martha@10academy.org)  
+**Program:** TRP1 Challenge, 10 Academy    
 **Week:** 12 of 12 — Research, pedagogy, and portfolio depth
 
 ---
@@ -21,12 +20,12 @@ Deliverable: five pair folders, each with a published blog post and tweet thread
 
 | File | Description |
 |---|---|
-| [question.md](pair_DAY_1/question.md) | Martha's sharpened question on KV cache mechanics and prefix caching |
-| [explainer.md](pair_DAY_1/explainer.md) | Martha's explainer for Rafia's question on position bias and length bias in LLM judges |
+| [question.md](pair_DAY_1/question.md) | sharpened question on KV cache mechanics and prefix caching |
+| [explainer.md](pair_DAY_1/explainer.md) | explainer for Rafia's question on position bias and length bias in LLM judges |
 | [morning_call_summary.md](pair_DAY_1/morning_call_summary.md) | How both questions were sharpened in the morning call |
 | [evening_call_summary.md](pair_DAY_1/evening_call_summary.md) | Feedback Rafia gave and revisions Martha made |
-| [signoff.md](pair_DAY_1/signoff.md) | Rafia's gap-closure verdict: CLOSED |
-| [grounding_commit.md](pair_DAY_1/grounding_commit.md) | Rafia's edit to the Tenacious-Bench v0.1 Interim Report §4.2 |
+| [signoff.md](pair_DAY_1/signoff.md) | gap-closure verdict: CLOSED |
+| [grounding_commit.md](pair_DAY_1/grounding_commit.md) | edit to the Tenacious-Bench v0.1 Report |
 | [sources.md](pair_DAY_1/sources.md) | Canonical papers, experiment tool, and follow-on pointers |
 | [thread.md](pair_DAY_1/thread.md) | 5-tweet thread (posted) |
 | [position_bias_experiment.py](pair_DAY_1/position_bias_experiment.py) | Experiment code: position and length bias across 5 Tenacious-Bench tasks |
