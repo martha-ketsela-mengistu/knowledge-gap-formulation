@@ -38,14 +38,42 @@ Deliverable: five pair folders, each with a published blog post and tweet thread
 
 ---
 
+## Day 2 — Agent and Tool-Use Internals
+
+**Topic voted by cohort:** Agent and Tool-Use Internals  
+**Subtopic:** How function-calling actually works at the token level; what the model is doing when it "chooses" a tool  
+**Pair:** Martha Ketsela Mengistu + Ruth Solomon
+
+| File | Description |
+|---|---|
+| [question.md](pair_DAY_2/question.md) | sharpened question |
+| [explainer.md](pair_DAY_2/explainer.md) | explainer |
+| [morning_call_summary.md](pair_DAY_2/morning_call_summary.md) | How both questions were sharpened in the morning call |
+| [evening_call_summary.md](pair_DAY_2/evening_call_summary.md) | Feedback exchanged and revisions made in the evening call |
+| [signoff.md](pair_DAY_2/signoff.md) | gap-closure verdict: CLOSED |
+| [grounding_commit.md](pair_DAY_2/grounding_commit.md) | edit to `hubspot_mcp.py` — all four `@mcp.tool()` docstrings rewritten from human-facing to LLM-optimized descriptions with trigger conditions and exclusion clauses |
+| [sources.md](pair_DAY_2/sources.md) | Canonical papers, experiment tool, and follow-on pointers |
+| [thread.md](pair_DAY_2/thread.md) | 5-post thread (pending publication) |
+| [tool_failure_demo.py](pair_DAY_2/tool_failure_demo.py) | Experiment code: Path 1 (API tools parameter) vs Path 2 (text injection) on Claude Sonnet 4.6 |
+| [function_calling_results.json](pair_DAY_2/function_calling_results.json) | Raw API responses from both conditions — same schema, same model, same message, only delivery path changes |
+
+
+**Published artifacts:**
+- Blog post: pending publication
+- Tweet thread: pending publication
+
+---
+
 ## Final submission checklist
 
 | Item | Status |
 |---|---|
 | pair_DAY_1 folder — all 8 required files | ✓ |
-| Blog post published under own identity | ✓ |
-| Tweet thread published under own identity | ✓ |
-| pair_DAY_2 folder | pending |
+| Blog post published under own identity (Day 1) | ✓ |
+| Tweet thread published under own identity (Day 1) | ✓ |
+| pair_DAY_2 folder — all 8 required files | ✓ |
+| Blog post published under own identity (Day 2) | pending |
+| Tweet thread published under own identity (Day 2) | pending |
 | pair_DAY_3 folder | pending |
 | pair_DAY_4 folder | pending |
 | pair_DAY_5 folder | pending |
